@@ -1,0 +1,45 @@
+[typ 0]
+pos 0 -1 1
+pos 1 -1 0
+pos 2  0 1
+pos 3  1 1
+
+[typ 1]
+pos 0 -1 0
+pos 1 -1 1
+pos 2  1 0
+pos 3  0 0
+
+[typ 2]
+pos 0  -1 1
+pos 1   0 0
+pos 2   1 1
+pos 3   1 0
+
+[typ 3]
+pos 0  -1 0
+pos 1  -1 1
+pos 2   0 0
+pos 3   0 1
+
+0 0: pos1, typ0; pos0, typ1; pos3, typ1; pos1, typ2; pos0, typ3; pos2, typ3
+0 1: pos0, typ0; pos1, typ1; pos0, typ2; pos1, typ3; pos3, typ3
+1 0: pos1, typ0; pos0, typ1; pos2, typ1; pos3, typ2; pos0, typ3; 
+1 1: pos0, typ0; pos3, typ0; pos1, typ1; pos0, typ2; pos2, typ2; pos1, typ3
+
+[-1,1,-1,0,0,1,1]  -1,1  -1,0  0,1,1
+[-1,0,-1,1,1,0,0]
+[-1,1,0,0,1,1,0]
+[-1,0,-1,1,0,0,1]
+
+
+
+
+
+
+
+
+
+
+
+
